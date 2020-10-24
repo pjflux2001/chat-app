@@ -42,4 +42,4 @@ io.sockets.on('connection', function(socket){
  
 });
  
-server.listen(process.env.PORT || 4141);
+server.listen(process.env.PORT);
